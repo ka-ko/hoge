@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="jp">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="ja"><!-- 言語を日本語に指定 -->
+<title>Bootstrap4.0.0 自分用テンプレート</title>
+<meta name="description" itemprop="description" content="【ここにページのディスクリプションが入ります】">
+<meta name="author" content="【ここに著作権情報（個人名、組織名などなど）が入ります】">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- ビューポート -->
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1"><!-- iPhone X対応用のビューポート（念の為記載） -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE用の設定（念の為記載） -->
+
+<!--  OG設定関連　（必要があれば諸々設定する）
+    ================================================== --> 
+<!--  共通 -->
+<meta property="og:site_name" content="【ここにサイト名が入ります】">
+<meta property="og:description" content="【ここにページのディスクリプションが入ります】">
+<meta property="og:title" content="【ここにページのタイトルが入ります】">
+<meta property="og:url" content="【ここにページのURLが入ります】">
+<meta property="og:image" content="【ここにサムネイル等、ページのイメージ画像が入ります】">
+<meta property="og:type" content="【ここにページのタイプ(種類)が入ります（トップページはwebsite、個別ページはarticle）】">
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="【ここにFacebookのアプリIDが入ります】">
+<meta property="og:locale" content="【ここに言語のタイプが入ります（デフォルトはen_USで、日本ならば、ja_JPへの書き換え推奨）】">
+<!-- Twitter共通設定 -->
+<meta name="twitter:card" content=" 【ツイッターカードの種類設定が入ります】">
+<meta name="twitter:site" content="【ツイッターのユーザー名（@ユーザー名）が入ります】"> 
+
+<!-- ファビコン -->
+<link rel="icon" href="./favicon.ico">
+
+<!-- CSS設定関連
+    ================================================== --> 
+<link href="./css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrapのスタイル -->
+<link href="./css/style.css" rel="stylesheet"><!-- 自分用の基本スタイル -->
+<link href="./css/container.css" rel="stylesheet"><!-- 自分用の調整・上書きスタイル -->
+<style>
+/*調整用CSS 直書き(本当はできれば、外部ファイルにしておいたほうが良い)*/
+body {
+  padding-top: 5rem;
+}
+.hoge-top {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <a class="navbar-brand" href="#">でふぉるとのなびばー</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="#">とっぷ <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">りんく</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">どろっぷだうん </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">どろっぷだうんの中身１</a> <a class="dropdown-item" href="#">どろっぷだうんの中身２</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">その他のナンヤカンヤ</a> </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">使用禁止</a> </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="さーち">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<main role="main" class="container">
+  <div class="hoge-top">
+    <h1>ぶーとすとらっぷてんぷれーと</h1>
+    <p class="lead">時間短縮できるといいなぁ・・・<br>
+      とりあえず、リンクは相対パスで書いてます。</p>
+  </div>
+</main>
+
+<hr>
+
+<footer>
+  <p class="small text-center">&copy; 2018 ほげほげ by <a href="https://getbootstrap.com/" target="_blank">Bootstrap v4.0.0</a></p>
+</footer>
+
+<!-- JavaScript 諸々
+    ================================================== --> 
+<script src="./js/jquery-3.3.1.min.js"></script> <!-- 最初に、jQuery -->
+<script>window.jQuery || document.write('<script src="./js/jquery-3.3.1.min.js"><\/script>')</script> 
+<script src="./js/umd/popper.min.js"></script> <!-- 次に、Popper（ぽっぱー） -->
+<script src="./js/bootstrap.min.js"></script>  <!-- そのまた次に、Bootstrap -->
+<script src="./js/base.js"></script><!-- 諸々書いた後に自分用の基本js -->
+</body>
+</html>

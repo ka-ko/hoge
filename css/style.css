@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* ↑utf-8のcharsetはこちら↑ */
+/* Scss Document */
+/*よしなに書き込んだSCSS*/
+body {
+  padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
